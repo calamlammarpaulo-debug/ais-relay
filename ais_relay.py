@@ -15,8 +15,8 @@ AGOL_USER = os.environ["AGOL_USER"]
 AGOL_PASS = os.environ["AGOL_PASS"]
 
 # [[lat, lon], [lat, lon]] corners; this box roughly covers the Philippines
-BBOX = [[[0.5, 102.0], [3.0, 105.0]]]   # Singapore / Malacca Strait
-LISTEN_SECONDS = 45
+BBOX = [[[4.0, 116.0], [22.0, 128.0]]]   # Philippines
+LISTEN_SECONDS = 90
 STALE_HOURS = 2
 
 
