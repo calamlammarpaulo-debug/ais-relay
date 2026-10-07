@@ -15,9 +15,9 @@ AGOL_USER = os.environ["AGOL_USER"]
 AGOL_PASS = os.environ["AGOL_PASS"]
 
 # [[lat, lon], [lat, lon]] corners; this box roughly covers the Philippines
-BBOX = [[[4.0, 116.0], [22.0, 128.0]]]   # Philippines
+BBOX = [[[3.0, 114.0], [23.0, 131.0]]]
 LISTEN_SECONDS = 90
-STALE_HOURS = 2
+STALE_HOURS = 72
 
 
 async def collect():
